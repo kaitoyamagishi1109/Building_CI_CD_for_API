@@ -28,7 +28,7 @@ jobs:
     name: Black Formatting
     runs-on: ubuntu-latest
     steps:
-      uses: RojerGS/python-black-check@master
-      with:
-        line-length: '130'
-        path: '.'
+      - uses: RojerGS/python-black-check@master
+        with:
+          line-length: '130'
+          path: '.'
