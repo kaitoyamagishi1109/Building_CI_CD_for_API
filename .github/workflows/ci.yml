@@ -7,6 +7,6 @@ jobs:
     name: Black Formatting
     runs-on: ubuntu-latest
     steps:
-      - uses: RojerGS/python-black-check@master
+      - uses: lgeiger/black-action@master
         with:
-          line-length: '130'
+          args: . --check      
