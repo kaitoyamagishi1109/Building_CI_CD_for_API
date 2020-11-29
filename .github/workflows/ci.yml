@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-python@v2
       - uses: psf/black@20.8b1
         with:
-          args: --diff --exclude tests/
+          args: --diff
